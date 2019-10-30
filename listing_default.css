@@ -1,0 +1,272 @@
+body{
+background-color: #eee;
+background-size:100% 100%;
+background-position:fixed;
+}
+#head1{
+text-align:center;
+font-family:"Cambria Math";
+font-size:80px;
+}
+#div1{
+background-color:#AA644A;
+}
+a:hover{
+background-color:#B7978B;
+}
+
+a{
+text-decoration:none;
+color:#9AC5E3;
+}
+
+h1{
+font-family:"Segoe UI Black";
+color:#362323;
+margin:0 35%;	
+}
+h2{
+font-family:"Verdana";
+color:#362323;	
+}
+.header_home{
+width:100%;
+height:10%;
+background-color:transparent;
+border:1;
+}
+
+
+
+.upload_ad_btn{
+	
+	background-color:white;
+  border:1px solid #eee;
+  display:inline-block;
+  color:black;
+  font-size:20px;
+  padding:16px 31px;
+  height:65px;   
+  margin-left: auto;
+  width: 20%;
+
+}	
+
+
+.right_of_header{
+float:right;
+font-size:40px;
+border:2;
+border-color:red;
+}
+
+#logo{
+width:10%;
+height:90%;
+}
+
+
+
+
+
+.details
+{
+display:block;
+font-family:"arial";
+color:color;
+font-size:120%;
+}
+.display_ad{
+float:left;
+border-radius:3% 5% 3% 5%;
+border-color:black;
+border-style:solid;
+margin-left:10%;
+width:50%;
+height:100%;
+background-color:transparent;
+}
+#img1{
+display:inline;
+height:100%;
+width:90%;
+}
+
+#address,#rooms,#city,#pincode,#available_from,#available_tills,#area
+{
+display:inline;
+margin:0 30%;
+background-color:lightgrey;
+width:140%;
+height:30px;
+font-size:20px;
+margin-left:1%;
+}
+#no_of_rooms
+{
+display:inline;
+margin:0 30%;
+background-color:lightgrey;
+width:65%;
+height:30px;
+font-size:20px;
+margin-left:1%;
+width:140%;
+}
+.detailss{
+display:block;
+float:center;
+position:relative;
+margin-top: 5%;
+margin-left: 10%;
+width:78%;
+background-color: white;
+padding:1%;
+}	
+.img123{
+
+height:40%;
+width:80%;
+margin-left:10%;
+position: relative;
+
+}
+
+
+.details_of{
+margin-left:5%;
+color:white;
+}
+
+#about{
+	font-size: 30px;
+	font-weight: bold;
+	font-color:black;
+	opacity: 0.6;
+	font-style: sans-serif;
+}
+
+#data{
+	font-size: 20px;
+	font-weight: bold;
+	font-color:black;
+	opacity: 0.7;
+	font-style:sans-serif;
+	display: inline;
+}
+#field{
+	font-size: 20px;
+	font-weight: bold;
+	font-color:black;
+	opacity: 0.5;
+	font-style: Roboto;
+	display: inline;
+}
+
+
+.fromdate{
+height:35px;
+background-color:transparent;
+font-size:20px;
+border-style:solid;
+border-width:1px;
+border-radius:30px;
+opacity: 0.9;
+border-color:black;
+text-align:center;
+color:black;
+width: 19%;	
+}
+.todate{
+height:35px;
+background-color:transparent;
+font-size:20px;
+border-style:solid;
+border-width:1px;
+border-radius:30px;
+opacity: 0.9;
+border-color:black;
+text-align:center;
+color:black;
+width:19%;
+}
+
+
+
+.upload_ad_btn{
+  border:1px solid #eee;
+  display:inline-block;
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:25px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left: 20px;
+  padding-right:20px;
+  height:50px;    
+  background-color: #C83535;
+  color:white;
+
+}
+
+
+
+
+.login{
+  border:1px solid #eee;
+  display:inline-block;
+
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:25px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+
+}
+
+.login:hover, .login:focus, .login:active {
+  color: white;
+  background-color:#E34040;
+
+}
+
+
+
+.welcome{
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:30;
+  display: inline;
+}
+
+.badge1 {
+    position:relative;
+     border:1px solid #eee;
+  display:inline-block;
+
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:25px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+  }
+  .badge1[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:2px;
+    right:5px;
+    font-size:25px;
+    background:green;
+    color:white;
+    width:30px;
+    height:30px;
+    text-align:center;
+    padding-top:5%;
+    line-height:15px;
+    border-radius:100%;
+    box-shadow:0 0 1px #333;
+
+  }
+  .badge1:hover, .badge1:focus, .badge1:active {
+  color: white;
+  background-color:#E34040;
+
+}

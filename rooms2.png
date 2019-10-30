@@ -1,0 +1,12 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <title>House Logo Red</title>
+ <g>
+  <title>Layer 1</title>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="306.905518" y="587.637817" id="svg_2" font-size="24" font-family="Arial" text-anchor="middle" xml:space="preserve" transform="rotate(44.53499984741211 307,579) "/>
+  <g id="svg_1">
+   <rect height="112.98997" id="rect604" width="68.201149" x="189.228576" y="57.76004" stroke-width="12.5" stroke="#0000ff" fill-rule="evenodd" fill="#0000ff"/>
+   <rect height="210.17676" id="rect590" width="299.4299" x="163.824886" y="216.70547" stroke-width="12.5" stroke="#0000ff" fill-rule="evenodd" fill="#0000ff"/>
+   <path d="m132.22467,230.750854l363.400085,0l-183.876099,-179.155186l-179.523987,179.155186z" id="path602" stroke-width="12.5" stroke="#0000ff" fill-rule="evenodd" fill="#0000ff"/>
+  </g>
+ </g>
+</svg>

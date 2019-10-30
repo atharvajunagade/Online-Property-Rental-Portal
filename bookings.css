@@ -1,0 +1,135 @@
+body{
+	background-color: #eee;
+}
+
+
+
+.header_home{
+width:100%;
+height:10%;
+background-color:transparent;
+border:1;
+}
+
+
+.right_of_header{
+float:right;
+font-size:40px;
+border:2;
+border-color:red;
+}
+
+
+
+.login{
+  border:1px solid #eee;
+  display:inline-block;
+  color:black;
+  font-size:20px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+  opacity: 0.9;
+  font-family: Open Sans Condensed, sans-serif;
+}
+
+
+
+.login:hover, .login:focus, .login:active {
+  color: white;
+  background-color:#E34040;
+
+}
+
+#data{
+  font-size: 20px;
+  font-weight: bold;
+  font-color:black;
+  opacity: 0.7;
+  font-style:sans-serif;
+  display: inline;
+  font-family:Open Sans Condensed, sans-serif;
+}
+.details
+{
+
+display:inline;
+font-family:Open Sans Condensed, sans-serif;
+color:color;
+font-size:120%;
+}
+
+.detailss{
+  font-size: 40px;
+  font-weight: bold;
+  font-color:black;
+  opacity: 0.9;
+  font-family:Open Sans Condensed, sans-serif;
+}
+
+.welcome{
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:30;
+  display: inline;
+}
+a{
+  text-decoration: none;
+}
+
+.bookings{
+  display:block;
+float:center;
+position:relative;
+margin-top: 5%;
+margin-left: 0%;
+width:100%;
+background-color: white;
+padding:1%;
+padding-left:5%;
+}
+
+.badge1 {
+    position:relative;
+     border:1px solid #eee;
+  display:inline-block;
+
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:25px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+  }
+  .badge1[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:2px;
+    right:5px;
+    font-size:25px;
+    background:green;
+    color:white;
+    width:30px;
+    height:30px;
+    text-align:center;
+    padding-top:5%;
+    line-height:15px;
+    border-radius:100%;
+    box-shadow:0 0 1px #333;
+
+  }
+  .badge1:hover, .badge1:focus, .badge1:active {
+  color: white;
+  background-color:#E34040;
+
+}
+
+.cancel{
+  border:1px solid #eee;
+  display:inline-block;
+
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:25px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+
+}

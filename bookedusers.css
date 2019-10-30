@@ -1,0 +1,94 @@
+body{
+	background-color: #eee;
+}
+
+.details{
+	font-family:Open Sans Condensed, sans-serif;
+	font-size:20;
+}
+p{
+	font-family:Open Sans Condensed, sans-serif;
+	font-size:20;
+}
+
+ .header_home{
+
+height:10%;
+background-color:transparent;
+border:1;
+display: inline;
+
+}
+
+
+.right_of_header{
+float:right;
+font-size:40px;
+border:2;
+border-color:red;
+position: relative;
+
+}
+
+
+.login{
+  border:1px solid #eee;
+  display:inline-block;
+  color:black;
+  font-size:20px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+  opacity: 0.9;
+  font-family: Open Sans Condensed, sans-serif;
+}
+
+
+
+.login:hover, .login:focus, .login:active {
+  color: white;
+  background-color:#E34040;
+
+}
+
+.welcome{
+  font-family: Open Sans Condensed, sans-serif;
+  font-size:30;
+  display: inline;
+}
+
+.badge1 {
+    position:relative;
+     border:1px solid #eee;
+  display:inline-block;
+
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:25px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+  }
+  .badge1[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:2px;
+    right:5px;
+    font-size:25px;
+    background:green;
+    color:white;
+    width:30px;
+    height:30px;
+    text-align:center;
+    padding-top:5%;
+    line-height:15px;
+    border-radius:100%;
+    box-shadow:0 0 1px #333;
+
+  }
+  .badge1:hover, .badge1:focus, .badge1:active {
+  color: white;
+  background-color:#E34040;
+}
+a{
+  text-decoration: none;
+}

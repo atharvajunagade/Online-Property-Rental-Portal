@@ -1,0 +1,295 @@
+body{
+background-color: #eee;
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position:fixed;
+}
+
+   
+#head1{
+text-align:center;
+font-family:"Cambria Math";
+font-size:80px;
+}
+#div1{
+background-color:#AA644A;
+}
+
+
+a{
+text-decoration:none;
+color:#2B4956;
+}
+
+h1{
+font-family:Open Sans Condensed, sans-serif;
+margin:0 20%;
+font-size:250%;
+}
+
+
+#logo{
+width:10%;
+height:90%;
+}
+
+.sign_up_form{
+float:left; 
+background-color:#FAFAFA;;
+border-color:#A9A2A0;
+
+margin-right:auto;
+border-style:solid;
+border-width:1px;
+margin-left:30%;
+margin-right:40%;
+width:30%;
+}
+
+.email_pass
+{
+font-family: 'Homenaje', sans-serif;
+color: black;
+opacity: 0.7;
+
+text-align:left;
+font-size:170%;
+}
+
+.input_box
+{
+margin:0 30%;
+background-image: url('user2.png');
+background-position: right;
+background-size: 10%;
+background-repeat: no-repeat;
+background-color: #eee;
+
+width:65%;
+height:30px;
+font-size:20px;
+}
+
+#img1{
+display:block;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+height:100px;
+border-radius:50%;
+}
+
+
+#submit_btn{
+	
+	font-size:23px;
+	color:white;
+	border: none;	
+	background-color:#C83535;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-left:23%;
+   padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	margin-left:5%;
+	width:55%;
+}
+
+
+#submit_btn:hover, #submit_btn:focus, #submit_btn:active {
+  color: white;
+  background-color:#E34040;
+}
+
+
+
+#submit_btn2{
+	
+	font-size:25px;
+	color:white;
+	border: none;	
+	background-color:#C83535;
+	
+	font-family: Open Sans Condensed, sans-serif;
+	margin-left:23%;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-left:5%;
+	width:55%;
+}
+
+
+#submit_btn2:hover, #submit_btn2:focus, #submit_btn2:active {
+  color: white;
+  background-color:#E34040;
+}
+
+
+#submit_btn3{
+	
+	font-size:25px;
+	color:white;
+	border: none;	
+	background-color:#C83535;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-left:23%;
+
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-left:5%;
+	width:55%;
+}
+
+
+#submit_btn3:hover, #submit_btn3:focus, #submit_btn3:active {
+  color: white;
+  background-color:skyblue;
+}
+
+
+span {
+        background-color: rgba(0,102,255,.15);
+        border: 2px solid rgba(0,102,255,.5);
+        border-radius: 10px;
+        color: #000;
+        display: none;
+        padding: 10px;
+        position: relative;
+		width:200px;
+    }
+
+span:before {
+    content: "";
+    border-style: solid;
+    border-width: 0 15px 15px 15px;
+    border-color:  transparent transparent rgba(0,102,255,.5) transparent;
+    height: 0;
+    position: absolute;
+    top: -17px;
+    width: 0;
+}
+
+input {
+    display: block
+}
+
+input:hover + span {
+    display: inline-block;
+    margin: 10px 0 0 10px
+}
+
+
+
+hr {
+    display: block;
+   
+   width:90%;
+   border-width: 1px;
+}
+
+
+
+input {
+    display: block
+}
+
+input:hover + span {
+    display: inline-block;
+    margin: 10px 0 0 10px
+}text
+
+
+
+input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.header_home{
+height:5%;
+background-color:white;
+display: inline-block;
+width: 100%;
+
+}
+
+.right_of_header{
+float:right;
+font-size:40px;
+}
+
+
+
+.login{
+  border:1px solid #eee;
+  display:inline-block;
+  color:black;
+  font-size:20px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+  opacity: 0.9;
+  font-family: Open Sans Condensed, sans-serif;
+}
+
+
+
+.login:hover, .login:focus, .login:active {
+  color: white;
+  background-color:#E34040;
+
+}
+
+
+.welcome{
+  font-size: 30;
+  font-family: Open Sans Condensed, sans-serif;
+  display: inline;
+}
+
+.badge1 {
+    position:relative;
+     border:1px solid #eee;
+  display:inline-block;
+
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:25px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+  }
+  .badge1[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:2px;
+    right:5px;
+    font-size:25px;
+    background:green;
+    color:white;
+    width:30px;
+    height:30px;
+    text-align:center;
+    padding-top:5%;
+    line-height:15px;
+    border-radius:100%;
+    box-shadow:0 0 1px #333;
+
+  }
+  .badge1:hover, .badge1:focus, .badge1:active {
+  color: white;
+  background-color:#E34040;
+}

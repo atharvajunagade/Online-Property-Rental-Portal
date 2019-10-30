@@ -1,0 +1,95 @@
+body{
+	background-color: #eee;
+}
+
+
+a{
+text-decoration:none;
+color:#9AC5E3;
+}
+
+.header_home{
+
+height:10%;
+background-color:transparent;
+border:1;
+display: inline;
+
+}
+
+
+.right_of_header{
+float:right;
+font-size:40px;
+border:2;
+border-color:red;
+position: relative;
+
+}
+
+
+
+
+.login{
+  border:1px solid #eee;
+  display:inline-block;
+  font-family:Open Sans Condensed, sans-serif;
+  font-size:25px;
+  padding:16px 31px;
+  height:65px;    
+  background-color: #C83535;
+
+}
+
+.login:hover, .login:focus, .login:active {
+  color: white;
+  background-color:#E34040;
+
+}
+
+
+#to_be_read{
+	background-color: #BDE4E4;
+	padding:1%;
+	 font-size: 20px;
+  font-weight: bold;
+  font-color:black;
+  opacity: 0.9;
+  font-style:sans-serif;
+  font-family:Open Sans Condensed, sans-serif;
+  cursor:pointer;
+}
+#to_be_read:hover{
+	background-color: #eee;
+}
+#read{
+	background-color: white;
+	padding:1%;
+	 font-size: 20px;
+  font-weight: bold;
+  font-color:black;
+  opacity: 0.9;
+  font-style:sans-serif;
+  cursor: pointer;
+  font-family:Open Sans Condensed, sans-serif;
+}
+#read:hover{
+	background-color: #eee;
+}
+.notifications{
+	margin-left: 10%;
+	width:78%;
+	background-color: white;
+}
+
+h1{
+	font-family:Open Sans Condensed, sans-serif;
+	background-color: #eee;
+	margin-left: 10%;
+}
+
+.welcome{
+  font-family: Open Sans Condensed, sans-serif;
+  font-size:30;
+  display: inline;
+}
